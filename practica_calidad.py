@@ -1,3 +1,4 @@
+# Cambio de prueba para disparar GitHub Actions
 """
 Sistema de Gestión de Pedidos - Versión de Práctica
 Calidad de Software - Actividad SonarLint
