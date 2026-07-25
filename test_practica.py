@@ -48,6 +48,24 @@ def test_agregar_item_contiene_el_item():
 # Recuerda: def test_nombre_descriptivo(): + assert
 
 # Test 1:
+def test_dividir_exacto():
+    # 1. Preparar los datos
+    dividendo = 10
+    divisor = 2
 
+    # 2. Ejecutar la función
+    resultado = dividir(dividendo, divisor)
+
+    # 3. Verificar el resultado con assert
+    assert resultado == 5.0
 
 # Test 2:
+def test_calcular_total_con_descuento():
+    # 1. Preparar los datos
+    precios = [100, 200, 50]
+
+    # 2. Ejecutar la función
+    resultado = calcular_total(precios)
+
+    # 3. Verificar el resultado con assert
+    assert resultado == 300
